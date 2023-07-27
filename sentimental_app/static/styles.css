@@ -1,0 +1,39 @@
+
+:root {
+  /* Shades of Blue */
+  --color-background: #f0f5ff;      /* Light blue background */
+  --color-text: #336699;            /* Dark blue text color */
+  --color-input-border: #b3d1ff;    /* Light blue border for input area */
+
+  /* Subtle Accents */
+  --color-accent: #007bff;          /* Blue color for submit button */
+}
+
+/* Apply styles to the body element */
+body {
+  background-color: var(--color-background); /* Set background color using defined variable */
+  color: var(--color-text);                  /* Set text color using defined variable */
+  font-family: Arial, sans-serif;            /* Set font family for the entire document */
+}
+
+/* Apply styles to text input elements */
+input[type="text"] {
+  border: 1px solid var(--color-input-border); /* Set input border using defined variable */
+  padding: 10px;                              /* Add padding to the input area */
+  font-size: 16px;                            /* Set font size for text input */
+}
+
+/* Apply styles to buttons */
+button {
+  background-color: var(--color-accent);   /* Set button background color using defined variable */
+  color: #fff;                             /* Set text color for buttons */
+  padding: 10px 20px;                      /* Add padding to buttons */
+  font-size: 16px;                        /* Set font size for button text */
+  border: none;                           /* Remove button border */
+  cursor: pointer;                       /* Change cursor to pointer on hover */
+}
+
+/* Apply styles to buttons on hover */
+button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
