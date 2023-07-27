@@ -2,7 +2,7 @@
 Web app that makes sentimental analysis of inputted text or uploaded text
 #### To run the program: 
 You can run the app by the following steps:
-1) Open sentimental-analysis folder.
+1) Open sentimental-analysis-main folder.
 2) Activate the virtual environment with:
 - For windows: venv/Scripts/activate
 - For macOS source venv/bin/activate
